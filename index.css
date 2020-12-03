@@ -110,7 +110,7 @@ nav a{
 .guide-inner p{
     font-size: 2rem;
     text-align: center;
-    margin: 4rem;
+    margin: 3rem;
 }
 
 #second{
@@ -122,6 +122,16 @@ nav a{
 .main-text{
     background-color: #DDB9A3;
     color: white;
+    text-align: center;
+    margin: 4rem;
+}
+
+.main-text p{
+    font-family: 'Roboto Mono';
+    display: inline-block;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.0rem;
 }
 
 footer{
