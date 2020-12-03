@@ -144,8 +144,14 @@ nav a{
     height: 10rem;
 }
 
+.footer-container{
+}
+
 footer{
-    background-color:#F9E7DC;
+    background-image: url("assets/footer_img.jpg");
+    height: 35rem;
+    margin: 5rem 0.5rem 0rem 0.5rem;
+    overflow: hidden;
 }
 
 span{
