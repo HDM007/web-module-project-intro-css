@@ -183,6 +183,10 @@ footer{
     padding-top: 10rem;
 }
 
+span{
+    font-weight: bold;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 /* font-family: 'Chelsea Market', cursive; */
 
