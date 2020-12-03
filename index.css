@@ -82,6 +82,25 @@ nav a{
     background-color:#FFCD69;
 }
 
+nav a:hover{
+    background-color: white;
+}
+
+.bubble1:hover{
+    color:#FF764E;
+    border: 0.5rem dotted black;
+}
+
+.bubble2:hover{
+    color:#5ED3EB;
+    border: 0.5rem dotted black;
+}
+
+.bubble3:hover{
+    color:#FFCD69;
+    border: 0.5rem dotted black;
+}
+
 /* top nav elements end here */
 
 .guide-container{
