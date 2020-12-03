@@ -51,6 +51,7 @@ table {
 }
 
 /* code begins here */
+/* Netlify Link: https://modest-brahmagupta-a96093.netlify.app */ 
 
 nav {
 	color:white;
@@ -66,7 +67,7 @@ nav a{
     padding: 3rem 3rem;
     font-size: 2rem;
     color: white;
-    margin: 4rem 5rem 4rem 5rem;
+    margin: 4rem 5rem;
 
 }
 
