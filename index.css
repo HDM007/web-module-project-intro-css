@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* code begins here */
+/* Netlify Link: https://modest-brahmagupta-a96093.netlify.app */ 
+
+nav {
+	color:white;
+    width: 100%;
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: 5rem;
+}
+
+nav a{
+    border-radius: 2rem;
+    text-decoration: none;
+    padding: 3rem 3rem;
+    font-size: 2rem;
+    color: white;
+    margin: 4rem 5rem;
+
+}
+
+.bubble1{
+    background-color:#FF764E;
+}
+
+.bubble2{
+    background-color:#5ED3EB;
+}
+
+.bubble3{
+    background-color:#FFCD69;
+}
+
+nav a:hover{
+    background-color: white;
+}
+
+.bubble1:hover{
+    color:#FF764E;
+    border: 0.5rem dotted black;
+}
+
+.bubble2:hover{
+    color:#5ED3EB;
+    border: 0.5rem dotted black;
+}
+
+.bubble3:hover{
+    color:#FFCD69;
+    border: 0.5rem dotted black;
+}
+
+/* top nav elements end here */
+
+.guide-container{
+    margin-top: 7rem;
+    display: inline-block;
+}
+
+.guide-image{
+    width: 25%;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    margin-left: 5rem;
+    max-height: 36rem;
+}
+
+.guide-inner h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5.8rem;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 3rem;
+    padding-left: 12rem;
+}
+
+.guide-inner p{
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 3rem 1.5rem 1rem 1.5rem;
+    padding-top: 1rem;
+}
+
+#second{
+    display: inline-block;
+    width: 40rem;
+    margin-left: 24rem;
+    font-size: 2.5rem;
+    padding-top: 0.5rem;
+}
+
+.main-text{
+    background-color: #DDB9A3;
+    color: white;
+    text-align: center;
+    margin: 4rem;
+}
+
+.main-text p{
+    font-family: 'Roboto Mono';
+    display: inline-block;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.0rem;
+}
+
+.image-text{
+    width: 20rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.image-text p{
+    margin-bottom: 5rem;
+}
+
+.image-text img{
+    height: 10rem;
+}
+
+footer{
+    background-image: url("assets/footer_img.jpg");
+    height: 35rem;
+    margin: 5rem 0.5rem 0rem 0.5rem;
+}
+
+.bottom-nav{
+    background-color: #F9E7DC;
+    height: 10rem;
+    margin: 0rem 0rem;
+    padding-top: 10rem;
+}
+
+span{
+    font-weight: bold;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+/* font-family: 'Chelsea Market', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/* font-family: 'Roboto Mono', monospace; */
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
+}
